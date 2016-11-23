@@ -1,0 +1,22 @@
+{
+    "name": "chuano/fpdf-cicrcle-charts",
+    "description": "Library that extends FPDF with circle percentage charts",
+    "minimum-stability": "dev",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.3",
+        "setasign/fpdf": "^1.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "chuano": "src/"
+        }
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Chuano Puchol",
+            "email": "chuano@gmail.com"
+        }
+    ]
+}
