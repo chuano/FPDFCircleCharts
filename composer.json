@@ -1,5 +1,5 @@
 {
-    "name": "chuano/fpdf-cicrcle-charts",
+    "name": "chuano/fpdf-circle-charts",
     "description": "Library that extends FPDF with circle percentage charts",
     "minimum-stability": "dev",
     "type": "library",
