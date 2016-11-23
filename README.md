@@ -1,7 +1,7 @@
 # FPDFCircleCharts
 Library that extends FPDF with circle percentage charts
 
-![Screenshot](http://chuano.github.com/FPDFCircleCharts/screenshot/screenshot.jpg)
+![screenshot.jpg](https://raw.githubusercontent.com/chuano/FPDFCircleCharts/master/screenshot/screenshot.jpg)
 
 ## Installation
 ```bash
