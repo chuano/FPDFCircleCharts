@@ -45,7 +45,8 @@ class FPDFCircleCharts extends FPDF
         $this->SetLineWidth(0.0);
         $this->SetFillColor($color[0], $color[1], $color[2]);
         $this->SetDrawColor($color[0], $color[1], $color[2]);
-        $angle = (($percent * 360) / doubleval(100));
+        $percentCircle = ($percent > 100) ? 100 : $percent;
+        $angle = (($percentCircle * 360) / doubleval(100));
         $angleStart = 0;
         if ($angle != 0) {
             $angleEnd = $angleStart + $angle;
